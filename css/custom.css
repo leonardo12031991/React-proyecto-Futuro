@@ -2,7 +2,7 @@ html {
     font-size: 62.5%;
 }
 body {
-    background-color: #f5f3f3
+    background-color: #f5f3f3a6
 }
 h1 {
     text-align: center;
@@ -15,8 +15,8 @@ h4 {
     font-weight: 700;
 }
 header {
-    padding: 20px 0 0 0;
-    background: white;
+    padding: 5px 0 0 0;
+    background: rgba(255, 255, 255, 0.685);
     text-align: center;
 }
 @media (min-width: 750px) {
@@ -37,7 +37,7 @@ ul {
     list-style: none;
 }
 #hero {
-    background-image:url(../img/hero.jpg);
+    background-image:url(../img/zapatillas.jpg);
     height: 350px;
     background-size: cover;
 }
@@ -46,6 +46,7 @@ ul {
 }
 .submenu {
     position: relative;
+    margin-top: 2rem;
 }
 
 .submenu #carrito{
